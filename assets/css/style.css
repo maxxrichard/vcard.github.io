@@ -127,6 +127,11 @@
 
 a { text-decoration: none; }
 
+ul {
+  list-style-type: disc;
+  padding-left: 20px; /* Optional: Adds some padding for list items */
+}
+
 li { list-style: none; }
 
 img, ion-icon, a, button, time, span { display: block; }
@@ -157,6 +162,33 @@ html { font-family: var(--ff-poppins); }
 
 body { background: var(--smoky-black); }
 
+
+
+/*-----------------------------------*\
+  #PUBLICATIONS
+\*-----------------------------------*/
+
+/* Ensuring all text is white */
+body, .publications, .publications li {
+  color: var(--white-1);
+}
+
+/* Styling the publication links to be inline */
+.publication-links {
+  display: inline-block; /* Makes the links stay in line */
+  margin-right: 10px; /* Adds spacing between the links */
+}
+
+/* Aligning the [Paper] [Github] links on the same line */
+.publication-item {
+  margin-bottom: 20px;
+}
+
+.publication-item a {
+  color: var(--orange-yellow-crayola); /* Keeps the link color as is or adjust if needed */
+  margin-right: 10px; /* Spacing between Paper and Github links */
+  display: inline-block; /* Ensures links stay on the same line */
+}
 
 
 
