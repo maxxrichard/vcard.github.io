@@ -169,7 +169,7 @@ ul {
 }
 
 /* Ensuring all text is white */
-body, .publications, .publications-li {
+body, .publications, .publications li {
   color: var(--light-gray);
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
@@ -187,7 +187,7 @@ body, .publications, .publications-li {
   margin-bottom: 20px;
 }
 
-.publication-item-a {
+.publication-item a {
   color: var(--orange-yellow-crayola); /* Keeps the link color as is or adjust if needed */
   margin-right: 10px; /* Spacing between Paper and Github links */
   display: inline-block; /* Ensures links stay on the same line */
