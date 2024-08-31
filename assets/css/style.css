@@ -180,7 +180,6 @@ body, .publications, .publications li {
 .publication-links {
   display: inline-block; /* Makes the links stay in line */
   margin-right: 10px; /* Adds spacing between the links */
-  color: rgb(54, 86, 246);
 }
 
 /* Aligning the [Paper] [Github] links on the same line */
